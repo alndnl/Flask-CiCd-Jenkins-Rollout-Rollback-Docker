@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_NAME = "raman-flask-app"
+        APP_NAME = "aland-flask-app"
         VERSION = "${env.BUILD_NUMBER}"
     }
 
